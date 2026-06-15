@@ -148,6 +148,11 @@ img { max-width: 100%; height: auto; }
   animation: floatIn 1s ease-out;
   mix-blend-mode: multiply; /* Blends the image background into the paper texture */
   filter: contrast(1.1) brightness(1.08); /* Forces off-white image bg to pure white so it vanishes */
+  
+  /* Blurs the edges of the photo so it fades smoothly into the paper */
+  -webkit-mask-image: radial-gradient(ellipse at center, black 55%, transparent 100%);
+  mask-image: radial-gradient(ellipse at center, black 55%, transparent 100%);
+  
   transition: var(--transition-smooth);
 }
 
