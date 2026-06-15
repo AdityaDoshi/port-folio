@@ -57,8 +57,7 @@ export default function Home() {
 
         <div className="hero-content">
           <div className="hero-portfolio-text">
-            <span>port</span>
-            <span>folio</span>
+            Portfolio.
           </div>
           <p className="hero-name-line">
             <strong>Aditya Doshi</strong> | Full-Stack Developer &amp; ML Engineer

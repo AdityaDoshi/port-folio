@@ -171,10 +171,15 @@ img { max-width: 100%; height: auto; }
   font-family: var(--font-display);
   font-size: clamp(4rem, 8vw, 7rem);
   font-weight: 700;
-  color: var(--text-primary);
-  line-height: 0.95;
-  letter-spacing: -2px;
-  margin-bottom: 24px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 5.5rem;
+  line-height: 1;
+  color: var(--accent-red);
+  margin-bottom: 20px;
+  display: block;
+  letter-spacing: -0.02em;
 }
 
 .hero-portfolio-text span {
@@ -634,6 +639,7 @@ img { max-width: 100%; height: auto; }
     align-items: center;
   }
 
+  .hero-portfolio-text { font-size: 4.5rem; margin-bottom: 16px; }
   .hero-desc { margin-left: auto; margin-right: auto; }
 
   .about-section, .projects-section { padding: 60px 24px; }
@@ -647,7 +653,8 @@ img { max-width: 100%; height: auto; }
 
 @media (max-width: 600px) {
   .navbar-links { display: none; }
-  .hero-portfolio-text { font-size: 3.5rem; }
+  .hero-portfolio-text { font-size: 3.2rem; }
+  .hero-name-line { font-size: 1rem; }
   .hero-illustration img { max-width: 280px; }
   .hero-cta-row { flex-direction: column; align-items: center; }
   .btn-primary, .btn-secondary { width: 100%; justify-content: center; }
