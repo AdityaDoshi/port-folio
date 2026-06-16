@@ -50,8 +50,8 @@ export default function Home() {
       <section className="hero" id="hero">
         <div className="hero-illustration">
           <img
-            src="/hero-illustration.png"
-            alt="Aditya Doshi - Developer at work"
+            src="/hero-illustration2.jpg"
+            alt="Developer illustration"
           />
         </div>
 
